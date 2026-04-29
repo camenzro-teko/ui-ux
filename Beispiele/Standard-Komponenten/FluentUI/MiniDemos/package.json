@@ -1,0 +1,42 @@
+{
+  "name": "fluentui-mini-demos",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:buttons": "vite --mode buttons",
+    "dev:inputs": "vite --mode inputs",
+    "dev:forms": "vite --mode forms",
+    "dev:dropdowns": "vite --mode dropdowns",
+    "dev:checkbox-switch": "vite --mode checkbox-switch",
+    "dev:dialogs": "vite --mode dialogs",
+    "dev:datagrid": "vite --mode datagrid",
+    "dev:tabs": "vite --mode tabs",
+    "dev:spinner-loading": "vite --mode spinner-loading",
+    "dev:toast-feedback": "vite --mode toast-feedback",
+    "dev:cards": "vite --mode cards",
+    "dev:navigation-menu": "vite --mode navigation-menu",
+    "dev:design-styles": "vite --mode design-styles",
+    "dev:barrierefreiheit": "vite --mode barrierefreiheit",
+    "dev:treeview": "vite --mode treeview",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fluentui/react-components": "^9.70.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "overrides": {
+    "keyborg": "2.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12"
+  }
+}
