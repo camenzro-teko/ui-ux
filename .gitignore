@@ -41,3 +41,14 @@ dist
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.vscode/*
+.vs
+obj
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
